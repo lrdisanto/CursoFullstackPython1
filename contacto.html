@@ -5,10 +5,46 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
     <title>Contacto</title>
+    <script src="https://kit.fontawesome.com/1d7b09fb57.js" crossorigin="anonymous"></script>
 </head>
 
-<body>
-<p>Esta es la pagina de contacto</p>
+<body style="background-image: url('./img/fondo.png'); color:cornsilk; font-family: Arial, Helvetica, sans-serif; ">
+    <header>
+        <nav style="background-color:#000; opacity: 0.8; font-family: Arial, Helvetica, sans-serif; padding:15px">
+            <h1>Soluciones</h1>
+            <a href="index.html">Home</a>
+            <a href="servicios.html">Servicios</a>
+            <a href="aboutus.html">Sobre Nosotros</a>
+            <a href="contacto.html">Contacto</a>
+
+        </nav>
+    </header>
+
+<div class="contenedor" style="background-color: #000; opacity:0.8; border-radius:2px; width: 90%;text-align: center; padding: 30px; margin-top: 20px;">
+			<form action="" class="form">
+				<div class="form-header">
+					<h1 class="form-title" style="text-align: center;">C<span>ontacto</span></h1>
+					
+				</div>
+				<label for="nombre" class="form-label" style="position: relative; display:block; font-size:16px;">Nombres</label>
+				<input type="text" id="nombre" class="form-input" placeholder="Escriba sus nombres"><br><br>
+				<label for="apellido" class="form-label" style="position: relative; display:block; font-size:16px;">Apellidos</label>
+				<input type="text" id="apellido" class="form-input" placeholder="Escriba sus apellidos"><br><br>
+				<label for="correo" class="form-label" style="position: relative; display:block; font-size:16px;">Mail</label>
+				<input type="email" id="correo" class="form-input" placeholder="Escriba su mail de contacto"><br><br>
+				<label for="mensaje" class="form-label" style="position: relative; display:block; font-size:16px;">Mensaje</label>
+				<textarea id="mensaje" class="form-textarea" placeholder="Escriba aquí su mensaje"></textarea><br>
+				<input type="submit" class="btn-submit" value="Enviar consulta">
+			</form>
+		
+	</div>
+    <footer style="margin-top:20px; bottom:0; background-color: #000; opacity: 0.8; font-family: Arial, Helvetica, sans-serif; padding: 20px;">
+        <ul>
+            <a href="twitter.com/home"><li> <i class="fab fa-twitter"> Twitter</i></li></a>
+            <a href="facebook.com"> <li><i class="fab fa-facebook">Facebook</i></li></a>
+         </ul>
+         <p style="margin-left: 1000px;">Lourdes Di Santo</p>
+    </footer>
 </body>
 
 </html>
