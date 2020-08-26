@@ -19,10 +19,12 @@
 
         </nav>
     </header>
-    <p> Envianos un mail a <a href="mailto:lourdesdisanto@hotmail.com">ejemplo@mail.com</a> o llena el formulario de contacto</p>
+    <p> Envianos un mail a <a href="mailto:lourdesdisanto@hotmail.com">ejemplo@mail.com</a> o llena el formulario de
+        contacto</p>
 
-<div class="contenedor" style="background-color: #000; opacity:0.8; border-radius:2px; width: 90%;text-align: center; padding: 30px; margin-top: 20px;">
-			<form action="" class="form">
+    <div class="contenedor"
+        style="background-color: #000; opacity:0.8; border-radius:2px; width: 90%;text-align: center; padding: 30px; margin-top: 20px;">
+        <!--	<form action="show_data.html" class="form">
 				<div class="form-header">
 					<h1 class="form-title" style="text-align: center;">C<span>ontacto</span></h1>
 					
@@ -37,14 +39,37 @@
 				<textarea id="mensaje" class="form-textarea" placeholder="Escriba aquí su mensaje"></textarea><br>
 				<input type="submit" class="btn-submit" value="Enviar consulta">
 			</form>
-		
-	</div>
-    <footer style="margin-top:20px; bottom:0; background-color: #000; opacity: 0.8; font-family: Arial, Helvetica, sans-serif; padding: 20px;">
+        -->
+        <h2>Formulario de registro</h2>
+        <form action="show_data.html" target="_blank">
+
+            <label for="firstname">Nombre: </label><input type="text" name="firstname" id="firstname"
+                placeholder="Ingrese su nombre"> <br><br>
+            <label for="lastname">Apellido:</label><input type="text" name="lastname" id="lastname"
+                placeholder="Ingrese su apellido"> <br><br>
+            <label for="telefono">Telefono:</label> <input type="tel" name="telefono" id="telefono"
+                placeholder="ingrese su telefono"> <br><br>
+            <label for="mail">Mail: </label> <input type="email" name="mail" id="mail"> <br><br>
+            <label for="llamada">Desea que lo llamemos?</label>
+            <input type="radio" name="llamada" value="true" id="si" checked>Si
+            <input type="radio" name="llamada" value="false" id="no"><br><br>
+               <label for="comentarios">Mensaje</label> <textarea name="comentarios" rows="10"
+                    cols="30"></textarea>
+                <br>
+                <input type="submit" value="Enviar">
+        </form>
+    </div>
+    <footer
+        style="margin-top:20px; bottom:0; background-color: #000; opacity: 0.8; font-family: Arial, Helvetica, sans-serif; padding: 20px;">
         <ul>
-            <a href="twitter.com/home"><li> <i class="fab fa-twitter"> Twitter</i></li></a>
-            <a href="facebook.com"> <li><i class="fab fa-facebook">Facebook</i></li></a>
-         </ul>
-         <p style="margin-left: 1000px;">Lourdes Di Santo</p>
+            <a href="twitter.com/home">
+                <li> <i class="fab fa-twitter"> Twitter</i></li>
+            </a>
+            <a href="facebook.com">
+                <li><i class="fab fa-facebook">Facebook</i></li>
+            </a>
+        </ul>
+        <p style="margin-left: 1000px;">Lourdes Di Santo</p>
     </footer>
 </body>
 
